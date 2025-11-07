@@ -7,7 +7,7 @@ if [ -f /etc/os-release ]; then
         echo "Starting..."
     else
         echo "This script is for Arch Linux only. Detected: $NAME."
-	echo "For Debian-based, Fedora-based and openSUSE-based system, please use this version: https://github.com/cryptrz/tlsChecker"
+	echo "For Debian-based, Fedora-based and openSUSE-based systems, please use this version: https://github.com/cryptrz/tlsChecker"
         exit 1
     fi
 else
